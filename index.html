@@ -1,0 +1,155 @@
+<!-- This document type is HTML version 5 (latest version) -->
+<!DOCTYPE html>
+<!-- HTML tag showing that this is the webpage data. Consists of HEAD and BODY -->
+<html lang="en">
+<!-- HEAD: holds info about the webpage; tells browser how to handle the page-->
+<head>
+    <!-- META: extra info; tells browser to encode the data as UTF-8 -->
+    <meta charset="UTF-8">
+    <title>❤ Stephanie's Personal Site</title>
+</head>
+<body>
+<!-- Going to put my name and title here in a table next to the image to style
+ (Later, I think, will use CSS to style this - for now, this is an intro) -->
+<table cellspacing="0">
+    <td><img src="baby_elephant.png"
+     width="50%"
+     alt="Baby Elephant photo"></td>
+    <td>
+        <h1>Stephanie Daire</h1>
+        <p><em>Data Scientist at <strong><a href="https://www.appbrewery.co/">The App Brewery</a></strong></em></p>
+        <p>I live in Reading and have 2 sons.</p>
+    </td>
+</table>
+
+<!-- <hr> hr: horizontal line tag with pixel height of 3-->
+<hr size="3">
+<h3><strong>Education</strong></h3>
+
+<ul>
+    <li><strong>1992 - 1996</strong>: University of Sussex</li>
+    <li><strong>1997 - 1998</strong>: Strathclyde University & Glasgow Caledonian University</li>
+    <li><strong>2017 - 2018</strong>: Royal Holloway University</li>
+</ul>
+<hr size="3">
+<h3>Work Experience</h3>
+<!-- Adding a table with rows (tr tag) and data (td tag ie cells thus each cell is in a column for each row) -->
+<table cellspacing="10">
+    <!-- Specify the table header <thead> with the column names <th>  -->
+    <thead>
+    <th>Dates</th>
+    <th>Company</th>
+    <th>Title</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>2018-2021</td>
+        <td>Coats Plc</td>
+        <td>Data Scientist</td>
+    </tr>
+    <tr>
+        <td>2017</td>
+        <td>Career Break</td>
+    </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+    <!-- move this into the table body
+    <tr>
+        <td>2018-2021</td>
+        <td>Coats Plc</td>
+        <td>Data Scientist</td>
+    </tr>
+    <tr>
+        <td>2017</td>
+        <td>Career Break</td>
+    </tr>
+    -->
+</table>
+<hr size="3">
+<h3>Skills</h3>
+<!-- Nested table ie 2 tables next to each other -->
+<!-- Creating like this means that each table can be formatted separately -->
+<!-- WARNING! This is COMPLICATED and HTML should be avoided for formatting like this! -->
+<table>
+    <tr>
+        <!-- Cell 1 -->
+        <td>
+            <!-- Table 1: Essentially 1 column as a list -->
+            <table cellspacing="10">
+                 <tr>
+                    <td>SQL</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                 </tr>
+                 <tr>
+                     <td>SAS</td>
+                     <td>⭐⭐⭐⭐⭐</td>
+                 </tr>
+            </table>
+        </td>
+        <!-- Cell 2 -->
+        <td>
+            <!-- Table 2: The second column as a list -->
+            <table cellspacing="10">
+                <tr>
+                    <td>R</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<br>
+<br>
+<!-- Below will look the same but is just 1 table not 2 -->
+<table cellspacing="10">
+    <tr>
+        <td>SQL</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>R</td>
+        <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+        <td>SAS</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>Python</td>
+        <td>⭐⭐⭐</td>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<hr size="3">
+<!-- Creating an anchor tag here to link to the hobbies.html file so it will be a separate webpage -->
+<a href="hobbies.html">Hobbies</a>
+<br>
+<br>
+<hr size="3">
+<a href="contact_me.html"><strong>Contact Me</strong></a>
+</body>
+</html>
+
+<!-- Go to https://docs.emmet.io/cheat-sheet/ for HTML code template shortcuts! -->
+<!-- eg type   a:link + TAB to get <a href="http://"></a> as the template to insert a website link -->
+
+<!-- Go to https://www.fileformat.info/info/charset/UTF-8/list.htm for complete character set for UTF-8
+MUST USE THIS ENCODING FOR HTML v5 which this is -->
+<!-- Go to https://unicode-table.com/en/ for list of ALL international symbols, plus emojis and more! Just copy
+and paste! -->
+
+<!-- Other meta attributes (charset= is an attribute of the meta element)
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+-->
